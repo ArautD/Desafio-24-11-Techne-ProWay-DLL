@@ -1,6 +1,8 @@
 #pragma once
 
 #include <string> //assim não preisa puxar na main
+#include <algorithm>
+#include <cctype>
 
 // Macros de validação
 #ifdef BUILD_DLL
