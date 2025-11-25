@@ -1,14 +1,16 @@
-===========================================
-Projeto: DESAFIO-24-11-TECHNE-PROWAY-DLL
-Autor: Paulo Lemos
+
+# Projeto: **DESAFIO-24-11-TECHNE-PROWAY-DLL**
+**Autor:** *ArautD*
 ===========================================
 
 Este projeto demonstra a criação e uso de uma DLL em C++,
 com funções utilitárias de manipulação de texto.
 
 -------------------------------------------
-📂 Estrutura de Pastas
+## 📂 Estrutura do projeto
 -------------------------------------------
+<pre> 
+ ``` 
  ├── systemtools.cpp      -> Código-fonte da DLL
  ├── systemtools.h        -> Header da DLL
  ├── systemtools.def      -> Arquivo de definição de exportação
@@ -17,9 +19,10 @@ com funções utilitárias de manipulação de texto.
  └── libsystemtools.a     -> Biblioteca de importação
  └── main.cpp             -> Programa principal que usa a DLL
  └── app.exe              -> Executável do projeto
-
+```
+</pre>
 -------------------------------------------
-⚙️ Como Compilar
+## ⚙️ Como Compilar
 -------------------------------------------
 
 1. Gerar objeto da DLL:
@@ -32,14 +35,14 @@ com funções utilitárias de manipulação de texto.
    g++ -o app.exe main.cpp -I../Dll -L../Dll -lsystemtools
 
 -------------------------------------------
-▶️ Como Executar
+## ▶️ Como Executar
 -------------------------------------------
 
 1. Execute o programa:
    .\app.exe
 
 -------------------------------------------
-📋 Funcionalidades da DLL
+## 📋 Funcionalidades da DLL
 -------------------------------------------
 - toUpper(texto)       -> Converte para MAIÚSCULAS
 - toLower(texto)       -> Converte para minúsculas
@@ -49,10 +52,11 @@ com funções utilitárias de manipulação de texto.
 - contaPalavra(texto)  -> Conta número de palavras
 
 -------------------------------------------
-🖥️ Programa de Teste
+## 🖥️ app
 -------------------------------------------
 O programa exibe um menu interativo:
-
+<pre> 
+``` 
 1 - Converter texto para MAIÚSCULAS
 2 - Converter texto para minúsculas
 3 - Inverter texto
@@ -60,5 +64,6 @@ O programa exibe um menu interativo:
 5 - Mostrar info da DLL
 6 - Contador de palavras
 0 - Sair
-
+```
+</pre>
 -------------------------------------------
