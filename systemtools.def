@@ -1,0 +1,8 @@
+LIBRARY systemtools
+EXPORTS
+    toUpper
+    toLower
+    reverseText
+    maskEmail
+    getAppInfo
+    contarPalavra

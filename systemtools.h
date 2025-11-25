@@ -3,6 +3,7 @@
 #include <string> //assim não preisa puxar na main
 #include <algorithm>
 #include <cctype>
+#include <sstream>
 
 // Macros de validação
 #ifdef BUILD_DLL

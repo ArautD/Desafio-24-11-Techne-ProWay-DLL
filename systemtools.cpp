@@ -1,5 +1,5 @@
 #include <iostream>
-#include <systemtools.h>
+#include "systemtools.h"
 
 using namespace std;
 
@@ -63,6 +63,15 @@ const char* maskEmail(const char* email){
     return buffer.c_str();
 }
 
-int contaPalavra(const char* texto){
+int contarPalavra(const char* texto){
+    std::string s(texto);
+    std::istringstream iss(s);
 
+    int contador = 0;
+    std::string word;
+
+    while (iss >> word){
+        contador++;
+    }
+    return contador;
 }
