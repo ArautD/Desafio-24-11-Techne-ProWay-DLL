@@ -24,7 +24,8 @@ com funções utilitárias de manipulação de texto.
 -------------------------------------------
 ## ⚙️ Como Compilar
 -------------------------------------------
-
+<pre> 
+ ``` 
 1. Gerar objeto da DLL:
    g++ -c -DBUILD_DLL systemtools.cpp -o systemtools.o
 
@@ -33,7 +34,8 @@ com funções utilitárias de manipulação de texto.
 
 3. Compilar o programa principal (rodar dentro de Programa_Teste):
    g++ -o app.exe main.cpp -I../Dll -L../Dll -lsystemtools
-
+ ``` 
+</pre>
 -------------------------------------------
 ## ▶️ Como Executar
 -------------------------------------------
